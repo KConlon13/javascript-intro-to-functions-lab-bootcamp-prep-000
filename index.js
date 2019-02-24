@@ -21,13 +21,13 @@ function sayHiToGrandma(string) {
   var final = ' ';
   
   if (string.toLowerCase()===lowercase){
-    final = console.log('I can\'t hear you!');
+    final = 'I can\'t hear you!';
   }
   else if (string.toUpperCase()===uppercase){
-    final = console.log('YES INDEED!');
+    final = 'YES INDEED!';
   }
   else if (string === mixedcase){
-    final = console.log('I love you, too.');
+    final = 'I love you, too.';
   }
   return final;
   
