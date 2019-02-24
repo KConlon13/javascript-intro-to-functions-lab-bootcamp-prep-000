@@ -23,13 +23,12 @@ function sayHiToGrandma(string) {
   if (string.toLowerCase()===lowercase){
     final = 'I can\'t hear you!';
   }
-  else if (string.toUpperCase()===uppercase){
+  if (string.toUpperCase()===uppercase){
     final = 'YES INDEED!';
   }
-  else if (string === mixedcase){
+  if (string === mixedcase){
     final = 'I love you, too.';
   }
-    return final;
 }
 
 //describe('sayHiToGrandma(string)', function() {
