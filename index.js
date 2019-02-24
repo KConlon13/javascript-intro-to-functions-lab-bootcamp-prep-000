@@ -14,7 +14,7 @@ function logWhisper(spy) {
   console.log('hello')
 }
 
-function sayHiToGrandma(string, lowercase, uppercase) {
+function sayHiToGrandma(string) {
   var lowercase = 'hello';
   var uppercase = 'HELLO';
   var mixedcase = 'I love you, Grandma.'
@@ -27,9 +27,9 @@ function sayHiToGrandma(string, lowercase, uppercase) {
     return "YES INDEED!"
   }
   
-  //else if (string===mixedcase){
-    //return "I love you, too."
-  //}
+  else if (string===mixedcase){
+    return "I love you, too."
+  }
   
   
   
